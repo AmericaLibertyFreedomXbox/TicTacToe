@@ -1,0 +1,57 @@
+Psudocode
+
+//initialize tictactoe board
+int board = {0, 0, 0, 0, 0, 0, 0, 0, 0};
+	
+//coin clip
+equilikely();
+cout << "player/cpu goes first";
+
+//search array for empty location
+for(i = 0; i < 9, i++){
+	//puts empty locations in a new array 'tally'
+		if (board[a] = 0){
+			tally[b] = i;
+	}
+}
+
+//run rng() to choose a number in  array 'tally'.
+int cpu_pick = rng() E tally[]; //a random element that exists within array 'tally'
+
+//array board[] is updated with result.
+int board = {0, 0, 2, 0, 0, 0, 0, 0, 0};
+
+
+//players turn
+cout << "players turn";
+cout << board;
+//player chooses location 3
+cin >> x = 3;
+board[3] = 1;
+
+//array board[] is updated with result.
+int board = {0, 0, 2, 1, 0, 0, 0, 0, 0};
+
+Repeat from line 10 until
+
+Someone wins
+	a win =
+		vertical:
+		int board = {0, 0, x, 0, 0, x, 0, 0, x};
+		int board = {0, x, 0, 0, x, 0, 0, x, 0};
+		int board = {x, 0, 0, x, 0, 0, x, 0, 0};
+
+		horizintal
+		int board = {x, x, x, 0, 0, 0, 0, 0, 0};
+		int board = {0, 0, 0, x, x, x, 0, 0, 0};
+		int board = {0, 0, 0, 0, 0, 0, x, x, x};
+
+		accriss
+		int board = {x, 0, 0, 0, x, 0, 0, 0, x};
+		int board = {0, 0, x, 0, x, 0, x, 0, 0};
+
+
+Or board is full (tie):
+	int board = {1, 2, 1,
+				1, 2, 2,
+				2, 1, 1};
